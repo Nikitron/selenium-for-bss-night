@@ -1,0 +1,9 @@
+**/.gradle/*
+**/.idea/*
+**/build/*
+**/.allure/*
+**/allure-results/*
+**/out/*
+*.iml
+
+src/test/resources/creds.properties

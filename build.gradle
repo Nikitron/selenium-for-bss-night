@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'idea'
+    id 'io.franzbecker.gradle-lombok' version '3.2.0'
+}
+
+group 'ru.t-systems.javabss'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = JavaVersion.VERSION_11
+
+repositories {
+    mavenCentral()
+}
+
+test {
+    useTestNG()
+}
+
+dependencies {
+    testCompile group: 'org.testng', name: 'testng', version: '6.14.3'
+    testCompile group: 'org.hamcrest', name: 'hamcrest', version: '2.2'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+    compile group: 'io.qameta.atlas', name: 'atlas-webdriver', version: '1.8.0'
+    compile group: 'ru.yandex.qatools.htmlelements', name: 'htmlelements-matchers', version: '1.20.0'
+}

@@ -7,3 +7,6 @@
 *.iml
 
 src/test/resources/creds.properties
+
+runtest.bat
+runtest.sh

@@ -1,4 +1,4 @@
-package ru.tsystems.phoenixqa.selenium;
+package ru.tsystems.phoenixqa.selenium.fake;
 
 import org.testng.annotations.Test;
 
